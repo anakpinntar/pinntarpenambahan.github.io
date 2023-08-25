@@ -1,0 +1,247 @@
+/*/
+/* ----------CSS--------- */
+
+/* -- GENERAL -- */
+
+* {
+    text-shadow: silver 1px 0 10px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.tosca {
+    color: #00fbc6;
+    font-size: 32px;
+}
+
+.grey {
+    color: #454545;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.green {
+    color: green;
+}
+
+
+.white {
+    color: white;
+}
+/* -- /end GENERAL -- */
+
+
+
+/* -- BODY -- */
+
+body {
+    font-family: Monospace;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+    color: #333;
+    width: 94%;
+    justify-content: center;
+    text-shadow: silver 1px 0 10px;
+    letter-spacing: 2px;
+}
+
+/* -- /end body -- */
+
+
+
+/* -- HEADER -- */
+
+.header {
+    background: #505050;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    transition-duration: 1s;
+}
+
+.header:hover {
+    background: #454545;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    box-sizing: border-box;
+    border-radius: 27px;
+    transition-duration: 1s;
+}
+
+.header h1 {
+    width: 90%;
+    color: #f8f9fa;
+    margin: 50px 40px 50px 40px;
+    padding: 30px 10px 30px 10px;
+    height: 100px;
+    transition-duration: 1s;
+    text-shadow: silver 1px 0 10px;
+    font-size: 190%;
+    font-size: 20px;
+}
+
+.header h1:hover {
+    width: 90%;
+    color: #f8f9fa;
+    margin: 30px 40px 30px 40px;
+    padding: 50px 10px 30px 10px;
+    height: 120px;
+    border-radius: 8px;
+    transition-duration: 1s;
+    font-size: 190%
+}
+
+
+/* --/end header -- */
+
+
+
+/* -- MAIN -- */
+
+/* -- MAIN .CONTAINER -- */
+
+.container {
+    margin: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    background: white;
+    box-sizing: border-box;
+}
+
+/* -- MAIN .CONTAINER .ACCORDION -- */
+.accordion:last-child > label, .accordion:last-child > .accordion-content {
+    border: none;
+    transition-duration: 1s;
+}
+
+input[type="radio"] {
+    display: none;
+    transition-duration: 1s;
+    /* hide the radio button because it does not look beautiful */
+}
+
+/* select the accordion content when the label is clicked on or the input is checked */
+input:checked ~ .accordion-content {
+    display: block;
+    transition-duration: 1s;
+}
+
+label {
+    transition-duration: 1s;
+    text-shadow: silver 1px 0 10px;
+    font-size: 18px;
+    display: block;
+    padding: 20px;
+    color: #333;
+    background: #f0f0f0;
+    border-top: 1px silver solid;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+}
+
+label:hover {
+    font-size: 27px;
+    transition-duration: 1s;
+    display: block;
+    padding: 20px;
+    color: #333;
+    background: #f0f0f0;
+    border-top: 1px silver solid;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+}
+
+/* -- MAIN .CONTAINER .ACCORDION .ACCORDION-CONTENT -- */
+
+.accordion-content {
+    display: block;
+    padding: 30px;
+    display: none;
+    border-radius: 6px;
+    transition: height 1s;
+}
+
+.accordion button {
+    display: inline-block;
+    float: right;
+}
+
+.accordion a {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.accordion a button {
+    font-size: 24px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    float: right;
+}
+
+.accordion p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.accordion-content p button {
+    display: block;
+    margin: 0;
+    font-size: 24px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    float: right;
+}
+
+/* -- /end main .container .accordion-content -- */
+
+/* -- /end main .container .accordion -- */
+
+/* -- /end main .container -- */
+
+/* -- /end main -- */
+
+
+
+/* -- FOOTER -- */
+
+.footer .next {
+    margin: 40px;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    float: center;
+}
+
+.footer .next {
+    font-size: 24px;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.30), 0 3px 2px rgba(0,0,0,0.22);
+    text-shadow: silver 1px 0 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* -- /end footer -- */
+
+/* ---------- endCSS---------*/
+/*/
